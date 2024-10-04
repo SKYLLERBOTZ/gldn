@@ -1,0 +1,53 @@
+body {
+    
+    text-align: center;
+    margin: 0;
+    padding: 9%;
+    background-color: #f4f4f4;
+}
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 1.2rem;
+    color: #0e2431;
+  }
+.container {
+    position: relative;
+    margin: 0% ;
+    padding: 1%;
+}
+
+img {
+    max-width: 100%;
+    text-align: center;
+    border-radius: 10%;
+}
+.icon-text {
+    background-color: #f8e69b;
+    color: rgb(0, 0, 0);
+      display: flex;
+      align-items: center; /* Untuk menyelaraskan vertikal */
+      font-family: Arial, sans-serif;
+  
+  }
+  .icon {
+      margin-right: 10px; /* Ruang antara ikon dan teks */
+  }
+footer {
+    background-color: #817f77;
+    color: rgb(255, 254, 254);
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    padding: 20%;
+    bottom: 1;
+    width: 100%;
+   
+}
+}
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 90%;
+    }
+}
